@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import { SiteThemeProvider } from '@/components/sections/ThemeProvider';
 import NavbarLayoutFloatingOverlay from '@/components/navigation/NavbarLayoutFloatingOverlay/NavbarLayoutFloatingOverlay';
@@ -87,7 +87,7 @@ export default function Home() {
             { label: "Contact Us", onClick: () => console.log('Contact Us Clicked') },
           ]}
           className="bg-bg-gradient"
-          gradientStyle={{}
+          gradientStyle={{}}
         />
       </div>
     </SiteThemeProvider>
